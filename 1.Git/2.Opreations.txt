@@ -4,4 +4,7 @@
 4.git remote add origin git@github.com:Axceeds/repositories.git
 5.git reset --hard VERSION
 6.git status
-7.git ls-file
+7.git ls-files
+8.git add . //git add filename
+9.git comit -m "explain"
+10.git push -u origin master
