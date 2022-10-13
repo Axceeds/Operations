@@ -1,0 +1,4 @@
+1.load_model报错AttributeError: ‘str‘ object has no attribute ‘decode‘
+后面找到原因是h5py版本的问题，在pypi上面发现自己2.3.1版本keras是去年十月份更新的版本，而更新后的h5py是今年11月份的，这可能导致了bug出现，把h5py降到2.10.0版本就行了。
+（ps:有时候更新库要注意每个库之间版本的问题，可能会带来各种bug）
+pip install h5py==2.10.0

@@ -1,0 +1,39 @@
+参考链接：
+https://www.zhihu.com/search?type=content&q=pycharm%20keras%E5%AE%89%E8%A3%85
+https://blog.csdn.net/weixin_42555080/article/details/119912423
+https://blog.csdn.net/qq_45739945/article/details/117556684
+https://www.cnblogs.com/AleiCui/p/10564642.html
+
+1.打开anaconda prompt ，将pip升级到最新版，注意刚开始的环境都是base。
+2.升级pip到最新版：
+  python -m pip install -U pip 
+3.创建名为TensorFlow的环境，同时安装Python3.6
+  conda create --name tensorflow python=3.6
+4.激活这个环境：
+  conda activate tensorflow
+5.安装tensorflow：
+  pip install tensorflow==1.15.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+6.验证是否成功：输入Python，再输入import tensorflow as tf，若下一行出现<<<，则说明TensorFlow安装成功
+7.安装keras使用清华镜像
+  pip install Keras==2.2.5 -i https://pypi.tuna.tsinghua.edu.cn/simple
+8.安装MinGW
+  普通方法太慢，参考换源：
+  https://www.cnblogs.com/AleiCui/p/10564642.html
+9.验证是否安装成功
+  验证：输入Python，再输入import keras，显示Using TensorFlow backed，则说明安装成功
+10.在pycharm内导入项目，正常情况下pycharm会默认的环境是（base），因此需要改变为（TensorFlow）环境，
+   实际上我们可以从anaconda安装目录中可以找到一个envs的文件夹，里面就有我们需要的TensorFlow环境。
+11.pycharm导入项目后，file->setting->python Interpreter->右边的小齿轮->add-conda environment->existing environment->interpreter
+选择刚才目录下的TensorFlow中的python.exe即可创建TensorFlow的编译环境。
+12.测试
+13.对于tensorflow版本问题，版本对应链接如下：
+https://blog.csdn.net/qq_45696978/article/details/122674158
+14. 2.x.x版本的tensorflow明显比1.x.x版本的速度快了不少
+尽量选择新版本
+
+
+
+
+
+
+

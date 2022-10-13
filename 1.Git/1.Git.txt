@@ -1,0 +1,6 @@
+1.Git的安装与简单配置、日常使用
+https://zhuanlan.zhihu.com/p/30044692
+2.解决GIT status命令显示中文乱码
+https://blog.csdn.net/u012145252/article/details/81775362
+3.创建github与git的SSH，用于push与pull本地文件
+https://zhuanlan.zhihu.com/p/454666519

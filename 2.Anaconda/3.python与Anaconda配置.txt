@@ -1,0 +1,5 @@
+1.一些基本的安装过程
+说明：
+Anaconda是基本环境组件，是对pyhon基本库的集成，更便利
+PyQt5是Qt组件的python集成化，是创建窗口UI的组件
+https://blog.csdn.net/seagulhui1/article/details/80430540
