@@ -1,0 +1,7 @@
+1.git init
+2.git log
+3.git reflog
+4.git remote add origin git@github.com:Axceeds/repositories.git
+5.git reset --hard VERSION
+6.git status
+7.git ls-file
