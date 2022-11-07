@@ -1,2 +1,4 @@
 1.VSCode cmd窗口直接消失解决方法
 https://blog.csdn.net/weixin_39750084/article/details/82845491?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link
+2.vs cout 输出控制台
+右键项目->属性->生成事件->生成后事件->editbin /SUBSYSTEM:CONSOLE $(OUTDIR)\$(ProjectName).exe
