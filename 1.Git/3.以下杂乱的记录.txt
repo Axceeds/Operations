@@ -1,0 +1,25 @@
+cpp：
+https://github.com/applenob/Cpp_Primer_Practice
+一些github仓库
+https://zhuanlan.zhihu.com/p/421881435
+
+创建github与git的SSH
+https://zhuanlan.zhihu.com/p/454666519
+
+VMware虚拟机安装Ubuntu：
+http://c.biancheng.net/view/714.html
+
+
+http://c.biancheng.net/sitemap/
+https://www.w3school.com.cn/
+https://github.com/izackwu/TeachYourselfCS-CN/issues
+
+解决GIT status中文乱码
+https://blog.csdn.net/u012145252/article/details/81775362
+QT6+VS环境搭建：
+https://blog.csdn.net/memorywithyou/article/details/126607163#:~:text=%E7%AC%AC%E4%B8%80%E6%AD%A5%E3%80%81%E4%B8%8B%E8%BD%BDQT%20%E7%94%B1%E4%BA%8EQT%E5%9C%A85.8.0%E5%90%8E%E4%B8%8D%E5%86%8D%E6%9C%89%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85%E7%89%88%E6%9C%AC%EF%BC%8C%E5%9D%87%E9%9C%80%E8%A6%81%E9%80%9A%E8%BF%87%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85%EF%BC%8CVS2022%E5%8F%AA%E8%83%BD%E9%80%82%E9%85%8D%E6%96%B0%E7%89%88%E6%9C%ACqt,6.4.0%201%20%E4%B8%8B%E8%BD%BDexe%E5%AE%89%E8%A3%85%E5%8C%85
+QT5.9.0环境搭建：
+https://blog.csdn.net/Sun_tian/article/details/104316789
+
+
+https://github.com/imarvinle/awesome-cs-books#cs%E5%9B%9B%E5%A4%A7%E5%9F%BA%E7%A1%80%E8%AF%BE

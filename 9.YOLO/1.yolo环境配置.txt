@@ -1,0 +1,11 @@
+1.直接参考bilibili链接：https://www.bilibili.com/video/BV1HZ4y1s7YF/?spm_id_from=333.337.search-card.all.click&vd_source=bd8abb27e2e61765897108a3a2e6d642
+2.参考github上的教程：
+
+CMake >= 3.18: https://cmake.org/download/
+直接下载cmake就行
+Powershell (already installed on windows): https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell
+CUDA >= 10.2: https://developer.nvidia.com/cuda-toolkit-archive (on Linux do Post-installation Actions)
+OpenCV >= 2.4: use your preferred package manager (brew, apt), build from source using vcpkg or download from OpenCV official site (on Windows set system variable OpenCV_DIR = C:\opencv\build - where are the include and x64 folders image)
+这里opencv下载好后，需要新建立一个环境变量名字叫
+cuDNN >= 8.0.2 https://developer.nvidia.com/rdp/cudnn-archive (on Linux follow steps described here https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installlinux-tar , on Windows follow steps described here https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#installwindows)
+GPU with CC >= 3.0: https://en.wikipedia.org/wiki/CUDA#GPUs_supported，实际上就是算力＞3.0

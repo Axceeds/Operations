@@ -1,0 +1,27 @@
+test:
+darknet.exe detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights -thresh 0.25
+darknet.exe detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights -ext_output dog.jpg
+训练自己的数据：
+How to train (to detect your custom objects):
+
+win10下YOLO v3训练报错： Error: cuDNN isn‘t found FWD algo for convolution.
+
+network dimensions: 416x416
+batch: 64
+subdivisions: 64
+安装cuda：全
+https://blog.csdn.net/russwest0/article/details/112914380
+https://zhuanlan.zhihu.com/p/144311348
+
+https://zhuanlan.zhihu.com/p/501798155
+
+yoloV5的一些操作
+
+pip install torch torchvision -i https://pypi.mirrors.ustc.edu.cn/simple/
+
+
+pip install pytorch==1.12.1 -i https://pypi.mirrors.ustc.edu.cn/simple/
+
+--weights yolov5s.pt --data data/boards.yaml --workers 1 --batch-size 8
+
+python detect.py --weights best.pt --source D:\YOLO\VOC2007\images\val

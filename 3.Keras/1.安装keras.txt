@@ -3,19 +3,20 @@ https://www.zhihu.com/search?type=content&q=pycharm%20keras%E5%AE%89%E8%A3%85
 https://blog.csdn.net/weixin_42555080/article/details/119912423
 https://blog.csdn.net/qq_45739945/article/details/117556684
 https://www.cnblogs.com/AleiCui/p/10564642.html
+注意：所有的安装尽量不要再原环境下操作，全部升级到新环境就ok了，因为有太多bug
 
 1.打开anaconda prompt ，将pip升级到最新版，注意刚开始的环境都是base。
 2.升级pip到最新版：
   python -m pip install -U pip 
-3.创建名为TensorFlow的环境，同时安装Python3.6
-  conda create --name tensorflow python=3.6
+3.创建名为TensorFlow的环境，同时安装Python3.8
+  conda create --name tensorflow python=3.8
 4.激活这个环境：
   conda activate tensorflow
 5.安装tensorflow：
-  pip install tensorflow==1.15.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+  pip install tensorflow==2.4.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 6.验证是否成功：输入Python，再输入import tensorflow as tf，若下一行出现<<<，则说明TensorFlow安装成功
-7.安装keras使用清华镜像
-  pip install Keras==2.2.5 -i https://pypi.tuna.tsinghua.edu.cn/simple
+7.安装keras使用清华镜像 #2.4之后的版本，tf内集成了keras
+  //pip install Keras==2.2.5 -i https://pypi.tuna.tsinghua.edu.cn/simple
 8.安装MinGW
   普通方法太慢，参考换源：
   https://www.cnblogs.com/AleiCui/p/10564642.html
@@ -28,8 +29,18 @@ https://www.cnblogs.com/AleiCui/p/10564642.html
 12.测试
 13.对于tensorflow版本问题，版本对应链接如下：
 https://blog.csdn.net/qq_45696978/article/details/122674158
-14. 2.x.x版本的tensorflow明显比1.x.x版本的速度快了不少
-尽量选择新版本
+14. 2.x.x版本的tensorflow明显比1.x.x版本的速度快了不少，尽量选择新版本。
+15.安装CUDA和cuDNN，这两个是启动GPU加速必备的，不然会在CPU上运行，速度太慢不合理。
+可以完全参考：https://blog.csdn.net/weixin_45956028/article/details/119419463
+16.如果提示：Could not load dynamic library ‘cudart64_101.dll，这里不仅限于这一条，可能有很多条提示
+把所有提示的信息，从
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin里面找到，
+或者去官网下载cudart64_101.dll文件，解压后有两个文件：然后复制粘贴到
+https://blog.csdn.net/weixin_43786241/article/details/109203995
+C:\Windows\System32中，他就会最后现实successful open。到此完结
+
+conda install cudatoolkit=11.0 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/linux-64/
+
 
 
 

@@ -1,2 +1,11 @@
 1.VSCode 环境配置
 https://www.zhihu.com/question/30315894
+下面这个更合适一点
+https://www.bilibili.com/video/BV1Cu411y7vT/?spm_id_from=333.337.search-card.all.click&vd_source=bd8abb27e2e61765897108a3a2e6d642
+
+https://wwn.lanzouh.com/isMa603btzla
+
+这篇很好，建议只用这篇。
+https://zhuanlan.zhihu.com/p/137760796
+这篇更好了，建议看完上一篇看这篇，主要解决多文件编译的问题。
+https://zhuanlan.zhihu.com/p/147366852
